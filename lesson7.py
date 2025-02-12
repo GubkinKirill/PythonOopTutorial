@@ -32,7 +32,7 @@ class Point:
 pt = Point(1, 2)
 pt.set_coords(3, 4)
 print(pt.get_coords()) # (3, 4)
-print(pt._Point__x) # 3
+print(pt._Point__x) # 3 - доступ к приватному атрибуту
 print(pt.__x) # AttributeError: 'Point' object has no attribute '__x'
 print(pt.__y) # AttributeError: 'Point' object has no attribute '__y'
 
